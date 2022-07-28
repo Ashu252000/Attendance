@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eattendence"
+    android:launchMode="singleTask">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EAttendence">
+        <activity android:name=".Teacher.Teacher_Fragment.Home.Edit_Teacher"></activity>
+        <activity android:name=".Student.Student_Fragment.Home.Edit_Student" />
+        <activity android:name=".Student.Student_Fragment.View_Attendance.Student_Attendences" />
+        <activity
+            android:name=".Teacher.Teacher_Fragment.View_Attendence.AttendenceStudent"
+            android:exported="true" />
+        <activity
+            android:name=".Teacher.Teacher_Fragment.View_Attendence.AttendeceSubject"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Teacher.Teacher_Fragment.Take_Attendence.Attedence_Take"
+            android:exported="true" />
+        <activity
+            android:name=".Teacher.Teacher_Fragment.Student.Student_List"
+            android:exported="true" />
+        <activity
+            android:name=".Teacher.Teacher_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Student.StudentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Register.Register_Man"
+            android:exported="true"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Register.Register_Teach"
+            android:exported="true"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Register.Register_Stud"
+            android:exported="true"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

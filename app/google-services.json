@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8267085035",
+    "firebase_url": "https://eattendence-2647d-default-rtdb.firebaseio.com",
+    "project_id": "eattendence-2647d",
+    "storage_bucket": "eattendence-2647d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8267085035:android:7a730409feb1861c0abaae",
+        "android_client_info": {
+          "package_name": "com.example.eattendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8267085035-5glla6ksraepri477851frjr432jl0q0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eattendence",
+            "certificate_hash": "2f3d51857ad08c78cfd4357c0ff6c32426d3c2c3"
+          }
+        },
+        {
+          "client_id": "8267085035-jm5es30r1ktbnv1qkuisgcbfb1djfmko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf0iaoGcu_K5OHGmCzIDwvJrE78LCKOgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8267085035-jm5es30r1ktbnv1qkuisgcbfb1djfmko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

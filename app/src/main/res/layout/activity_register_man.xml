@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register.Register_Man">
+
+    <include
+        android:id="@+id/tool"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#FE22B3E8">
+
+            <EditText
+                android:id="@+id/man_firstnm"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:shadowColor="#000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColorHint="#FE22B3E8">
+
+            <EditText
+                android:id="@+id/man_lastnm"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColorHint="#FE22B3E8">
+
+            <EditText
+                android:id="@+id/man_contact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:hint="Contact Name"
+                android:inputType="number"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColorHint="#FE22B3E8">
+
+            <EditText
+                android:id="@+id/man_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:hint="Email Id"
+                android:inputType="textEmailAddress"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColorHint="#FE22B3E8">
+
+            <EditText
+                android:id="@+id/man_pass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColorHint="#FE22B3E8">
+
+            <EditText
+                android:id="@+id/man_cnfpass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/add_man"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Add Management"
+            android:layout_marginBottom="20dp"
+            android:background="#FE22B3E8"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

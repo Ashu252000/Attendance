@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.Teacher_Fragment.View_Attendence.View_Attendence">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:textColorHint="#FE22B3E8">
+
+            <EditText
+                android:id="@+id/startdate"
+                android:focusable="false"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="#FE22B3E8"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:hint="Start Date"
+                android:inputType="date"
+                android:shadowColor="#000" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#FE22B3E8">
+
+
+            <EditText
+                android:id="@+id/enddate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textinputborder"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="End Date"
+                android:inputType="date"
+                android:shadowColor="#000"
+                android:textColorHint="#FE22B3E8" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/course_attendence"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#FE22B3E8"
+            android:drawableLeft="@drawable/baseline_text_snippet_black_18dp"
+            android:drawableTint="#fff"
+            android:text="Subject Wise Attendence"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/student_attendence"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#FEE8AD22"
+            android:drawableLeft="@drawable/baseline_text_snippet_black_18dp"
+            android:drawableTint="#fff"
+            android:text="Student Wise Attendence"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

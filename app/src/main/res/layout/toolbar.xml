@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/blue"
+    local:theme="@style/AppTheme.AppBarOverlay"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+</androidx.appcompat.widget.Toolbar>
